@@ -1,14 +1,13 @@
 import img from "../../../assets";
 import Button from "../../button";
 
-const LandingProjects = () => {
+const LandingPrice = () => {
   return (
     <section className="min-h-screen flex flex-col items-start pt-[5%] px-[10%] relative">
       <div className="w-full min-w-[350px] flex flex-row align-middle justify-between">
-        <h1 className="text-5xl font-semibold whitespace-no-wrap">Projects</h1>
+        <h1 className="text-5xl font-semibold whitespace-no-wrap">Price</h1>
         <div className="flex gap-5">
-          <Button text="Experience" dir="down" />
-          <Button text="Skills" dir="up" />
+          <Button text="Specs" dir="up" />
         </div>
       </div>
       <div
@@ -33,4 +32,4 @@ const LandingProjects = () => {
   );
 };
 
-export default LandingProjects;
+export default LandingPrice;

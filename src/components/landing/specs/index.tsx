@@ -1,15 +1,15 @@
 import img from "../../../assets";
 import Button from "../../button";
 
-const LandingSkills = () => {
+const LandingSpecs = () => {
   return (
     <section className="min-h-screen flex flex-col items-start pt-[5%] px-[10%] relative">
       <div className="w-full min-w-[350px] flex flex-row align-middle justify-between">
         <h1 className="text-5xl font-semibold whitespace-no-wrap">
-          Technical Skills
+          Specifications
         </h1>
         <div className="flex gap-5">
-          <Button text="Projects" dir="down" />
+          <Button text="Price" dir="down" />
           <Button text="Intro" dir="up" />
         </div>
       </div>
@@ -35,4 +35,4 @@ const LandingSkills = () => {
   );
 };
 
-export default LandingSkills;
+export default LandingSpecs;

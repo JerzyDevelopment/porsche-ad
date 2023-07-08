@@ -4,11 +4,17 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "porsche";
+  src: url("./assets/fonts/PorscheNext-Regular.otf") format("truetype");
+  font-weight: normal;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Montserrat";
+  font-family: "porsche";
   font-style: normal;
   color: #10190a;
 }

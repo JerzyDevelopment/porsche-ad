@@ -1,13 +1,13 @@
 import LandingIntro from "../../components/landing/intro";
-import LandingProjects from "../../components/landing/projects";
-import LandingSkills from "../../components/landing/skills";
+import LandingPrice from "../../components/landing/price";
+import LandingSpecs from "../../components/landing/specs";
 
 const LandingPage = () => {
   return (
     <div>
       <LandingIntro />
-      <LandingSkills />
-      <LandingProjects />
+      <LandingSpecs />
+      <LandingPrice />
     </div>
   );
 };
